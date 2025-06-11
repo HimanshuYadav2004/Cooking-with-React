@@ -16,7 +16,7 @@ function Counter()
             <p>{Count}</p>
         <button style={style}  onClick={()=> setCount( decCount => decCount - 1)}>-</button>
     </div>
-  );̥
+  )
 }
 
 export default Counter;
